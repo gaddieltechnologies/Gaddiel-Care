@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+<definition name="underConstruction" template="/WEB-INF/jsp/common/underConstruction.jsp" />
+<definition name="ChurchConfigPopup" template="/WEB-INF/jsp/churchconfig/ChurchConfigPopup.jsp" />
+<definition name="ChurchPrefPopup" template="/WEB-INF/jsp/churchconfig/ChurchPrefPopup.jsp" />
+<definition name="Churchaddresspop" template="/WEB-INF/jsp/churchconfig/Churchaddresspop.jsp" />
+<definition name="Churchcontactspop" template="/WEB-INF/jsp/churchconfig/Churchcontactspop.jsp" />
+<definition name="customlookupspopup" template="/WEB-INF/jsp/lookups/customlookupspopup.jsp" />
+<definition name="Familypopup" template="/WEB-INF/jsp/family/Familypop.jsp" />
+<definition name="memberpopup" template="/WEB-INF/jsp/family/memberpop.jsp" />
+<definition name="familyedit" template="/WEB-INF/jsp/family/fedit.jsp" />
+<definition name="memberedit" template="/WEB-INF/jsp/family/medit.jsp" />
+<definition name="BaptismPopupAdd" template="/WEB-INF/jsp/RegistrationDetails/BaptismPopupAdd.jsp" />
+<definition name="BaptismPopupEdit" template="/WEB-INF/jsp/RegistrationDetails/BaptismPopupEdit.jsp" />
+<definition name="ConfirmationPopupAdd" template="/WEB-INF/jsp/RegistrationDetails/ConfirmationPopupAdd.jsp" />
+<definition name="ConfirmationPopupEdit" template="/WEB-INF/jsp/RegistrationDetails/ConfirmationPopupEdit.jsp" />
+<definition name="DeathPopupAdd" template="/WEB-INF/jsp/RegistrationDetails/DeathPopupAdd.jsp" />
+<definition name="DeathPopupEdit" template="/WEB-INF/jsp/RegistrationDetails/DeathPopupEdit.jsp" />
+<definition name="MarriagePopupAdd" template="/WEB-INF/jsp/RegistrationDetails/MarriagePopupAdd.jsp" />
+<definition name="MarriagePopupEdit" template="/WEB-INF/jsp/RegistrationDetails/MarriagePopupEdit.jsp" />
+<definition name="SubscriptionPopupAdd" template="/WEB-INF/jsp/RegistrationDetails/SubscriptionPopupAdd.jsp" />
+<definition name="SubscriptionPopupEdit" template="/WEB-INF/jsp/RegistrationDetails/SubscriptionPopupEdit.jsp" />
+
+	<definition name="base.definition"	template="/WEB-INF/jsp/common/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/jsp/common/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/jsp/common/menu.jsp" />
+		<put-attribute name="menuh" value="/WEB-INF/jsp/common/hmenu.jsp" />
+		<put-attribute name="body" value="" />
+	    <put-attribute name="rightscroll" value="/WEB-INF/jsp/common/rightscroll.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/common/footer.jsp" />
+	</definition>
+
+	<definition name="Ex1" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/landing.jsp" />
+	</definition>
+	
+	<definition name="Ex12" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/Ex12.jsp" />
+	</definition>
+	
+	<definition name="ChurchConfiguration" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/churchconfig/ChurchConfiguration.jsp" />
+	</definition>
+	
+	<definition name="Roles" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/roles/Roles.jsp" />
+	</definition>
+	<definition name="systemLookups" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/lookups/systemLookups.jsp" />
+	</definition>
+
+	<definition name="customlookup" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/lookups/customLookups.jsp" />
+	</definition>
+	<definition name="ajax-add-page" extends="base.definition">
+				<put-attribute name="body" value="/WEB-INF/jsp/ajax-add-page.jsp" />
+	</definition>
+
+	<definition name="customLookups" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/lookups/customLookups.jsp" />
+	</definition>
+
+	<definition name="database" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/database/database.jsp" />
+	</definition>
+
+	<definition name="SysRolePrivileges" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/roles/SysRolePrivileges.jsp" />
+	</definition>
+    <definition name="rolesprivileges" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/roles/Rolesprivileges.jsp" />
+	</definition>
+
+   	<definition name="familymember.jsp" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/roles/familymember.jsp" />
+	</definition>
+
+	  <definition name="familylanding" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/family/Familyland.jsp" />
+	</definition>
+	
+    <definition name="Baptism" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/RegistrationDetails/Baptism.jsp" />
+	</definition>
+	<definition name="Confirmation" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/RegistrationDetails/Confirmation.jsp" />
+	</definition>
+	<definition name="Death" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/RegistrationDetails/Death.jsp" />
+	</definition>
+	<definition name="Marriage" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/RegistrationDetails/Marriage.jsp" />
+	</definition>
+	<definition name="Subscription" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/RegistrationDetails/Subscription.jsp" />
+	</definition>
+	<definition name="Collectionregisters" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/RegistrationDetails/CollectionRegisters.jsp" />
+	</definition>
+<definition name="Contributionschedules" extends="base.definition">
+		<put-attribute name="body" value="/WEB-INF/jsp/RegistrationDetails/ContributionSchedules.jsp" />
+	</definition>
+</tiles-definitions>

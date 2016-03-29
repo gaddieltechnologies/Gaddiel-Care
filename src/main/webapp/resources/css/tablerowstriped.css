@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+       body,td {
+        
+      }
+      table {
+        border-collapse: collapse;
+      }
+      .td {
+      border: 1px #a2a2bb solid;
+	        padding: 0px 0px ;
+			height:10px;
+		
+      }
+  .bin {
+      border: 1px #a2a2bb solid;
+	        padding: 0px 0px;
+      }
+	    .cost {
+      border: 1px #a2a2bb solid;
+	         padding: 0px 0px;
+      }
+	    .glass {
+      border: 1px #a2a2bb solid;
+	        padding: 0px 0px;
+      }
+	    .bottle {
+      border: 1px #a2a2bb solid;
+	         padding: 0px 0px;
+      }
+
+      
+         .getcheck  {
+      border: 1px #a2a2bb solid;
+         padding: 0px 0px;
+         }
+
+.oddtr1
+{
+	background-color:white;
+}
+.eventr1
+{
+	background-color:#e6ecf4;
+}
+.oddtr
+{
+background-color:#e6ecf4;
+}
+.eventr
+{
+	background-color:white;
+}
+.trover
+{
+	background-color: #0099CC;
+}
+.trclick
+{
+	background-color: #00CCCC;
+}
+  .error {
+  border:1px solid red;
+}
+.red {color:red;}
+    #rowScroll { height: 100px; } /* Subtract the scrollbar height */
+
+    #contentScroll { height: 330px; width: 103%; }
+
+    #colScroll { width: 600px; } /* Subtract the scrollbar width */
+
